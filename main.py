@@ -4,4 +4,4 @@ def f():
 
 if __name__ == '__main__':
     a = 2
-    print f()
+    print(f())
