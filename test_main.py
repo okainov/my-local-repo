@@ -11,3 +11,8 @@ class TestF(unittest.TestCase):
 class TestZ(unittest.TestCase):
     def test_return(self):
         self.assertEqual(z(), 'www')
+
+
+class Test3(unittest.TestCase):
+    def test_return(self):
+        self.assertEqual(z(), 'ww2w')
